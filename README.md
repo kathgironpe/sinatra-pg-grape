@@ -1,4 +1,4 @@
-# Sinatra PostgreSQL Grape Template
+# Sinatra PostgreSQL Grape Template [![Build Status](https://secure.travis-ci.org/katgironpe/sinatra-pg-grape.png)](http://travis-ci.org/katgironpe/sinatra-pg-grape)
 
 ## What is this good for?
 
