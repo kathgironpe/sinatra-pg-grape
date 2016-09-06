@@ -1,15 +1,17 @@
 class Main < Sinatra::Base
 
-  YAML::load(File.open('config/database.yml'))[$env].symbolize_keys.each do |key, value|
+  YAML::load(File.open('config/database.yml'))[$env].each do |key, value|
     set key, value
   end
 
-  configure do
-    #$conn = MongoClient.new(settings.host, settings.port)
-    #$db = $conn.db(settings.database)
-    set :db, $db
+  configure $env.to_sym do
+    ActiveRecord::Base.establish_connection(adapter: settings.adapter,
+                                            username: settings.username,
+                                            password: settings.password,
+                                            host: settings.host,
+                                            database: settings.database)
   end
 
-  enable :sessions
-  set :session_secret, settings.session_secret
+  enable :raise_errors, :sessions, :logging
+  #set :session_secret, settings.session_secret
 end

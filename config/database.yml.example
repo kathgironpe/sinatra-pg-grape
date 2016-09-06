@@ -18,7 +18,5 @@ test:
 production:
   database: sinatra_pg_production
   host: localhost
-  username: test_name
-  password:
   <<: *defaults
 
