@@ -1,0 +1,22 @@
+defaults: &defaults
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: postgres
+
+development:
+  database: sinatra_pg_development
+  host: localhost
+  <<: *defaults
+
+test:
+  database: travis_ci_test
+  host: localhost
+  <<: *defaults
+
+production:
+  database: sinatra_pg_production
+  host: localhost
+  <<: *defaults
+
