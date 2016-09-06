@@ -13,9 +13,13 @@ group :development do
 end
 
 group :test do
-  gem 'capybara'
-  gem 'cucumber'
-  gem 'factory_girl'
+  gem 'capybara', '~> 2.8.0'
+  gem 'cucumber', '~> 2.4.0'
+  gem 'factory_girl', '~> 4.0.0'
   gem 'rack-test'
   gem 'rspec', '~> 3.0'
+end
+
+group :development, :test do
+  gem 'ffaker'
 end

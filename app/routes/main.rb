@@ -13,5 +13,5 @@ class Main < Sinatra::Base
   end
 
   enable :raise_errors, :sessions, :logging
-  #set :session_secret, settings.session_secret
+  set :session_secret, settings.session_secret
 end

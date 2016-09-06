@@ -45,8 +45,9 @@ GEM
     diff-lcs (1.2.5)
     enumerable-lazy (0.0.1)
     equalizer (0.0.11)
-    factory_girl (4.7.0)
+    factory_girl (4.0.0)
       activesupport (>= 3.0.0)
+    ffaker (2.2.0)
     gherkin (4.0.0)
     grape (0.17.0)
       activesupport
@@ -123,9 +124,10 @@ PLATFORMS
 DEPENDENCIES
   activerecord (~> 5.0)
   activesupport (~> 5.0)
-  capybara
-  cucumber
-  factory_girl
+  capybara (~> 2.8.0)
+  cucumber (~> 2.4.0)
+  factory_girl (~> 4.0.0)
+  ffaker
   grape (~> 0.17.0)
   pg (~> 0.18.4)
   rack-test
