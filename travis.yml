@@ -4,4 +4,4 @@ before_script:
   - cp config/database.yml.travis config/database.yml
 services: postgresql
 rvm:
-  - 2.2
+  - 2.3

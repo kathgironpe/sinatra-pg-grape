@@ -5,7 +5,7 @@ gem 'activesupport', '~> 5.0'
 gem 'grape', '~> 0.17.0'
 gem 'pg', '~> 0.18.4'
 gem 'rake', '~> 11.0'
-gem 'sinatra', '~> 1.4.0'
+gem 'sinatra', '~> 1.4.7'
 gem 'sinatra-activerecord', '~> 2.0'
 
 group :development do
