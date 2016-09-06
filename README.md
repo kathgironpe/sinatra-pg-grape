@@ -51,7 +51,7 @@ Change the settings on `config/database.yml`
 There's a rake task for loading test data.
 
 ```bash
-rake db:seed
+bundle exec rake db:seed
 ```
 
 After loading that data, you can check `/api/v1/posts`.
@@ -59,7 +59,7 @@ After loading that data, you can check `/api/v1/posts`.
 Start the application:
 
 ```
-shotgun config.ru
+bundle exec shotgun config.ru
 ```
 
 Use curl or probably just your browser to view the output:
@@ -116,9 +116,7 @@ end
 Use the commands:
 
 ```bash
-rake test
-or
-rspec .
+bundle exec rake test
 ```
 
 ### The Golden Rule of API Design
