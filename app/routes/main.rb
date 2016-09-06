@@ -14,4 +14,5 @@ class Main < Sinatra::Base
 
   enable :raise_errors, :sessions, :logging
   set :session_secret, settings.session_secret
+  set :default_pagination_count, settings.default_pagination_count
 end

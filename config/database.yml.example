@@ -4,6 +4,8 @@ defaults: &defaults
   pool: 5
   username: postgres
   password: postgres
+  session_secret: ad53dc062ccde21542ef7f161d3e7a2d
+  default_pagination_count: 10
 
 development:
   database: sinatra_pg_development

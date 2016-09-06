@@ -18,6 +18,8 @@
 * Grape
 * PostgreSQL
 * Sinatra
+* ActiveRecord
+* will_paginate
 
 ## Getting Started
 

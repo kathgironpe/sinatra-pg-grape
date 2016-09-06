@@ -9,6 +9,8 @@ require 'bundler'
   grape
   pg
   sinatra
+  will_paginate
+  will_paginate/active_record
 ).each { |dep| require dep }
 
 $env = ENV['RACK_ENV']
