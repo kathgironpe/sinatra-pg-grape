@@ -28,20 +28,20 @@ $ rm -r myapp/.git && rm myapp/README.md
 
 ## PostgreSQL Configuration
 
-Install MongoDB if you haven't yet.
+Install PostgreSQL if you haven't yet.
 
-On Mac OSX, you can use Homebrew to install MongoDB as
+On Mac OSX, you can use Homebrew to install PostgreSQL as
 
 ```bash
 $ brew install pg
 ```
 
-On Linux distros, use your package manager to install MongoDB. For instance, if you are on Ubuntu or Ubuntu derivative, you might use
+On Linux distros, use your package manager to install PostgreSQL. For instance, if you are on Ubuntu or Ubuntu derivative, you might use
 
 ```bash
 $ apt-get install postgresql
 ```
-You might need `sudo` privileges to run the above command. On CentOS-Fedora-Redhat, you would most likely use `yum` package manager. Similarly, on Arch, MongoDB can be installed with `pacman`.
+You might need `sudo` privileges to run the above command. On CentOS-Fedora-Redhat, you would most likely use `yum` package manager. Similarly, on Arch, PostgreSQL can be installed with `pacman`.
 
 Change the settings on `config/database.yml`
 
