@@ -1,2 +1,2 @@
 require './main'
-run Rack::Cascade.new [Post, Main]
+run Rack::Cascade.new [Posts, Main]

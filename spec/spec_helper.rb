@@ -1,8 +1,10 @@
 ENV['RACK_ENV'] ||= 'test'
 
-['rack/test',
- 'rspec',
- './main'
+[
+  'capybara/dsl',
+  'rack/test',
+  'rspec',
+  './main'
 ].each do |d|
   require d
 end
@@ -10,6 +12,6 @@ end
 Dir[('./spec/support/**/*.rb')].each { |f| require f }
 
 RSpec.configure do |c|
-  c.mock_with :rspec
+  c.include Capybara::DSL
   c.include Rack::Test::Methods
 end
