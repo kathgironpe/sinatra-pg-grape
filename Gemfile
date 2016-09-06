@@ -18,6 +18,7 @@ group :test do
   gem 'factory_girl', '~> 4.0.0'
   gem 'rack-test'
   gem 'rspec', '~> 3.0'
+  gem 'shoulda-matchers', github: 'thoughtbot/shoulda-matchers'
 end
 
 group :development, :test do
