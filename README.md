@@ -43,15 +43,21 @@ $ apt-get install postgresql
 ```
 You might need `sudo` privileges to run the above command. On CentOS-Fedora-Redhat, you would most likely use `yum` package manager. Similarly, on Arch, PostgreSQL can be installed with `pacman`.
 
-Change the settings on `config/database.yml`
 
+## Configuration
+
+``` bash
+$ cp config/database.yml.example config/database.yml
+```
+
+Update `config/database.yml`.
 
 ## Test Data
 
 There's a rake task for loading test data.
 
 ```bash
-bundle exec rake db:seed
+bundle exec rake db:populate_db
 ```
 
 After loading that data, you can check `/api/v1/posts`.

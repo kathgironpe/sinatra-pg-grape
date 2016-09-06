@@ -123,6 +123,7 @@ GEM
       coercible (~> 1.0)
       descendants_tracker (~> 0.0, >= 0.0.3)
       equalizer (~> 0.0, >= 0.0.9)
+    will_paginate (3.1.0)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
@@ -145,6 +146,7 @@ DEPENDENCIES
   shoulda-matchers!
   sinatra (~> 1.4.7)
   sinatra-activerecord (~> 2.0)
+  will_paginate (~> 3.1.0)
 
 BUNDLED WITH
    1.12.5

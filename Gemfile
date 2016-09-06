@@ -7,6 +7,7 @@ gem 'pg', '~> 0.18.4'
 gem 'rake', '~> 11.0'
 gem 'sinatra', '~> 1.4.7'
 gem 'sinatra-activerecord', '~> 2.0'
+gem 'will_paginate', '~> 3.1.0'
 
 group :development do
   gem 'shotgun'
