@@ -1,4 +1,4 @@
-# Sinatra PostgreSQL Grape Template [![Build Status](https://secure.travis-ci.org/katgironpe/sinatra-pg-grape.png)](http://travis-ci.org/katgironpe/sinatra-pg-grape)
+# Sinatra PostgreSQL Grape Template [![Dependency Status](https://gemnasium.com/badges/github.com/katgironpe/sinatra-pg-grape.svg)](https://gemnasium.com/github.com/katgironpe/sinatra-pg-grape) [![Build Status](https://secure.travis-ci.org/katgironpe/sinatra-pg-grape.png)](http://travis-ci.org/katgironpe/sinatra-pg-grape)
 
 ## What is this good for?
 
