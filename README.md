@@ -1,4 +1,4 @@
-# Sinatra PG Grape Template
+# Sinatra PostgreSQL Grape Template
 
 ## What is this good for?
 
