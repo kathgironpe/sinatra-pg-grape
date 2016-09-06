@@ -4,6 +4,6 @@ class Posts < Grape::API
   format :json
 
   get :posts do
-    Post.order('created_at DESC')
+    { data: Post.order('created_at DESC') }
   end
 end
