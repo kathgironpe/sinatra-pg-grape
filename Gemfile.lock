@@ -84,7 +84,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.3.2)
+    rake (11.2.2)
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
       rspec-expectations (~> 3.0.0)
@@ -131,7 +131,7 @@ DEPENDENCIES
   grape (~> 0.17.0)
   pg (~> 0.18.4)
   rack-test
-  rake
+  rake (~> 11.0)
   rspec (~> 3.0)
   shotgun
   sinatra (~> 1.4)
