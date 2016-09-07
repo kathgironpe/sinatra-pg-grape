@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Post, type: :model do
+describe Post do
 
   subject { described_class.new(title: 'A title', body: 'A body') }
 
