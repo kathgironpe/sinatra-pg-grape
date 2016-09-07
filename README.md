@@ -133,12 +133,6 @@ bundle exec rake test
 
 > — Michael Feathers
 
-### Documentation
-
-
-### Relevant Links
-
-
 ### Have any questions/ suggestions?
 
 #### Katherine Pe
