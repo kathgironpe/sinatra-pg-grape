@@ -17,7 +17,7 @@ group :test do
   gem 'capybara', '~> 2.8.0'
   gem 'cucumber', '~> 2.4.0'
   gem 'factory_girl', '~> 4.0.0'
-  gem 'rack-test'
+  gem 'rack-test', '~> 0.6.3'
   gem 'rspec', '~> 3.0'
 end
 

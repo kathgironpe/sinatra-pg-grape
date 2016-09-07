@@ -132,7 +132,7 @@ DEPENDENCIES
   ffaker
   grape (~> 0.17.0)
   pg (~> 0.18.4)
-  rack-test
+  rack-test (~> 0.6.3)
   rake (~> 11.0)
   rspec (~> 3.0)
   shotgun
