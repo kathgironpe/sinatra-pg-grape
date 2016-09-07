@@ -1,7 +1,6 @@
 require 'spec_helper'
 
 describe Post do
-
   subject { described_class.new(title: 'A title', body: 'A body') }
 
   context 'with valid attributes' do
