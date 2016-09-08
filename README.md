@@ -124,7 +124,7 @@ end
 Use the commands:
 
 ```bash
-bundle exec rake test
+bundle exec rake
 ```
 
 ### The Golden Rule of API Design

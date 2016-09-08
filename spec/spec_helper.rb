@@ -2,6 +2,7 @@ ENV['RACK_ENV'] ||= 'test'
 
 %w(
   capybara/dsl
+  database_cleaner
   factory_girl
   ffaker
   rack/test
@@ -17,5 +18,16 @@ FactoryGirl.find_definitions
 RSpec.configure do |c|
   c.include Capybara::DSL
   c.include FactoryGirl::Syntax::Methods
-  c.include Rack::Test::Methods
+
+  c.before(:suite) do
+    DatabaseCleaner.strategy = :transaction
+  end
+
+  c.before(:each) do
+    DatabaseCleaner.start
+  end
+
+  c.append_after(:each) do
+    DatabaseCleaner.clean
+  end
 end

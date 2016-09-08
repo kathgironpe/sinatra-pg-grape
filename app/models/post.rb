@@ -4,4 +4,6 @@ class Post < ActiveRecord::Base
   validates :body, presence: true
 
   self.per_page = 10
+
+  scope :published, ->{ where(published: true) }
 end

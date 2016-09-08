@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20160906111836) do
   create_table "posts", id: :uuid, default: -> { "uuid_generate_v4()" }, force: :cascade do |t|
     t.text     "title"
     t.text     "body"
+    t.boolean  "published",  default: true
     t.datetime "created_at"
     t.datetime "updated_at"
   end
