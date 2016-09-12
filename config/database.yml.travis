@@ -8,17 +8,16 @@ defaults: &defaults
   default_pagination_count: 10
 
 development:
+  <<: *defaults
   database: sinatra_pg_development
   host: localhost
-  <<: *defaults
 
 test:
+  <<: *defaults
   database: travis_ci_test
   host: localhost
-  <<: *defaults
 
 production:
+  <<: *defaults
   database: sinatra_pg_production
   host: localhost
-  <<: *defaults
-
