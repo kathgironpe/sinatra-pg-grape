@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 gem 'activerecord', '~> 5.0'
 gem 'activesupport', '~> 5.0'
-gem 'grape', '~> 0.17.0'
-gem 'pg', '~> 0.18.4'
+gem 'grape', '~> 0.18.0'
+gem 'pg', '~> 0.19.0'
 gem 'rake', '~> 11.0'
 gem 'sinatra', '~> 1.4.7'
 gem 'sinatra-activerecord', '~> 2.0'
